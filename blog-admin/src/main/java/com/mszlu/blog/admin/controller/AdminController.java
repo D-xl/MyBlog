@@ -32,5 +32,7 @@ public class AdminController {
     public Result delete(@PathVariable("id") Long id){
         return permissionService.delete(id);
     }
-
+    public String hellloworld(){
+        return  "hello world";
+    }
 }
